@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0808FE6EFE1CB7294644BDC7 /* Pods_ZXMediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB09F20F7B21DE9FAEC0097F /* Pods_ZXMediaPlayer.framework */; };
+		DC1ADD7F1FC8225B000DF909 /* ZXMediaControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1ADD7E1FC8225B000DF909 /* ZXMediaControlView.swift */; };
+		DC1ADD821FC9490B000DF909 /* MediaPlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1ADD811FC9490B000DF909 /* MediaPlayerModel.swift */; };
+		DC1ADD841FC9D7F7000DF909 /* ZXMediaPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1ADD831FC9D7F7000DF909 /* ZXMediaPlayerView.swift */; };
+		DC1ADD861FCD00B2000DF909 /* ZXMediaCoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1ADD851FCD00B1000DF909 /* ZXMediaCoverView.swift */; };
+		DC1ADD881FCD0715000DF909 /* ZXVideoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1ADD871FCD0715000DF909 /* ZXVideoInfo.swift */; };
+		DC31BAEC1FD4D93900B3C4E2 /* ZXBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC31BAEB1FD4D93900B3C4E2 /* ZXBaseViewController.swift */; };
+		DC31BAF41FD4DC6700B3C4E2 /* ZXNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC31BAF31FD4DC6700B3C4E2 /* ZXNavigationController.swift */; };
+		DC31BAF61FD4DDC800B3C4E2 /* ZXVideoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC31BAF51FD4DDC800B3C4E2 /* ZXVideoListViewController.swift */; };
+		DC31BAF81FD5197F00B3C4E2 /* VideoListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC31BAF71FD5197F00B3C4E2 /* VideoListCell.swift */; };
+		DCEDC9041FC6CB3600E3590B /* ZXVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEDC9031FC6CB3600E3590B /* ZXVideoViewController.swift */; };
+		DCEDC93C1FC8192A00E3590B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCEDC92F1FC8192A00E3590B /* Assets.xcassets */; };
+		DCEDC93E1FC8192A00E3590B /* ZXBrightnessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEDC9331FC8192A00E3590B /* ZXBrightnessView.swift */; };
+		DCEDC93F1FC8192A00E3590B /* ZXPopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEDC9341FC8192A00E3590B /* ZXPopUpView.swift */; };
+		DCEDC9401FC8192A00E3590B /* ZXValueTrackingSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEDC9351FC8192A00E3590B /* ZXValueTrackingSlider.swift */; };
+		DCEDC9411FC8192A00E3590B /* UIWindow+ ZXExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEDC9371FC8192A00E3590B /* UIWindow+ ZXExtension.swift */; };
+		DCEDC9421FC8192A00E3590B /* ZXCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEDC9381FC8192A00E3590B /* ZXCommon.swift */; };
+		DCEDC9431FC8192A00E3590B /* ZXMediaPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DCEDC9391FC8192A00E3590B /* ZXMediaPlayer.bundle */; };
+		DCEDC9441FC8192A00E3590B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEDC93B1FC8192A00E3590B /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48EFE3E60E70EE3CFA648D37 /* Pods-ZXMediaPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXMediaPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZXMediaPlayer/Pods-ZXMediaPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		AB09F20F7B21DE9FAEC0097F /* Pods_ZXMediaPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZXMediaPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1ADD7E1FC8225B000DF909 /* ZXMediaControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXMediaControlView.swift; sourceTree = "<group>"; };
+		DC1ADD811FC9490B000DF909 /* MediaPlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPlayerModel.swift; sourceTree = "<group>"; };
+		DC1ADD831FC9D7F7000DF909 /* ZXMediaPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXMediaPlayerView.swift; sourceTree = "<group>"; };
+		DC1ADD851FCD00B1000DF909 /* ZXMediaCoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXMediaCoverView.swift; sourceTree = "<group>"; };
+		DC1ADD871FCD0715000DF909 /* ZXVideoInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXVideoInfo.swift; sourceTree = "<group>"; };
+		DC1ADD891FCD37B5000DF909 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		DC31BAEB1FD4D93900B3C4E2 /* ZXBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXBaseViewController.swift; sourceTree = "<group>"; };
+		DC31BAF31FD4DC6700B3C4E2 /* ZXNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXNavigationController.swift; sourceTree = "<group>"; };
+		DC31BAF51FD4DDC800B3C4E2 /* ZXVideoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXVideoListViewController.swift; sourceTree = "<group>"; };
+		DC31BAF71FD5197F00B3C4E2 /* VideoListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListCell.swift; sourceTree = "<group>"; };
+		DCEDC8FE1FC6CB3600E3590B /* ZXMediaPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXMediaPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCEDC9031FC6CB3600E3590B /* ZXVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXVideoViewController.swift; sourceTree = "<group>"; };
+		DCEDC92F1FC8192A00E3590B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCEDC9301FC8192A00E3590B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCEDC9331FC8192A00E3590B /* ZXBrightnessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXBrightnessView.swift; sourceTree = "<group>"; };
+		DCEDC9341FC8192A00E3590B /* ZXPopUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXPopUpView.swift; sourceTree = "<group>"; };
+		DCEDC9351FC8192A00E3590B /* ZXValueTrackingSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXValueTrackingSlider.swift; sourceTree = "<group>"; };
+		DCEDC9371FC8192A00E3590B /* UIWindow+ ZXExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWindow+ ZXExtension.swift"; sourceTree = "<group>"; };
+		DCEDC9381FC8192A00E3590B /* ZXCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXCommon.swift; sourceTree = "<group>"; };
+		DCEDC9391FC8192A00E3590B /* ZXMediaPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZXMediaPlayer.bundle; sourceTree = "<group>"; };
+		DCEDC93B1FC8192A00E3590B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA08BA728D92EED4588A33B9 /* Pods-ZXMediaPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXMediaPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZXMediaPlayer/Pods-ZXMediaPlayer.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCEDC8FB1FC6CB3600E3590B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0808FE6EFE1CB7294644BDC7 /* Pods_ZXMediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48CA0EC5E41ED6ECF401AF67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC1ADD891FCD37B5000DF909 /* MediaPlayer.framework */,
+				AB09F20F7B21DE9FAEC0097F /* Pods_ZXMediaPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64B3F244CC5FFC6DD995F357 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48EFE3E60E70EE3CFA648D37 /* Pods-ZXMediaPlayer.debug.xcconfig */,
+				EA08BA728D92EED4588A33B9 /* Pods-ZXMediaPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC1ADD7C1FC821B0000DF909 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DC31BAF51FD4DDC800B3C4E2 /* ZXVideoListViewController.swift */,
+				DC31BAF71FD5197F00B3C4E2 /* VideoListCell.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		DC1ADD7D1FC821B0000DF909 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DC31BAEB1FD4D93900B3C4E2 /* ZXBaseViewController.swift */,
+				DC31BAF31FD4DC6700B3C4E2 /* ZXNavigationController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		DC1ADD801FC948B7000DF909 /* PlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				DC1ADD811FC9490B000DF909 /* MediaPlayerModel.swift */,
+				DC1ADD831FC9D7F7000DF909 /* ZXMediaPlayerView.swift */,
+			);
+			path = PlayerView;
+			sourceTree = "<group>";
+		};
+		DCEDC8F51FC6CB3600E3590B = {
+			isa = PBXGroup;
+			children = (
+				DCEDC9001FC6CB3600E3590B /* ZXMediaPlayer */,
+				DCEDC8FF1FC6CB3600E3590B /* Products */,
+				64B3F244CC5FFC6DD995F357 /* Pods */,
+				48CA0EC5E41ED6ECF401AF67 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DCEDC8FF1FC6CB3600E3590B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCEDC8FE1FC6CB3600E3590B /* ZXMediaPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCEDC9001FC6CB3600E3590B /* ZXMediaPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				DCEDC93A1FC8192A00E3590B /* MediaPlayerExample */,
+				DCEDC9311FC8192A00E3590B /* MediaPlayer */,
+				DCEDC92E1FC8192A00E3590B /* Supporting Files */,
+				DCEDC93B1FC8192A00E3590B /* AppDelegate.swift */,
+			);
+			path = ZXMediaPlayer;
+			sourceTree = "<group>";
+		};
+		DCEDC92E1FC8192A00E3590B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCEDC92F1FC8192A00E3590B /* Assets.xcassets */,
+				DCEDC9301FC8192A00E3590B /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCEDC9311FC8192A00E3590B /* MediaPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				DC1ADD801FC948B7000DF909 /* PlayerView */,
+				DCEDC9321FC8192A00E3590B /* ControlView */,
+				DCEDC9361FC8192A00E3590B /* Extension */,
+				DCEDC9381FC8192A00E3590B /* ZXCommon.swift */,
+				DCEDC9391FC8192A00E3590B /* ZXMediaPlayer.bundle */,
+			);
+			path = MediaPlayer;
+			sourceTree = "<group>";
+		};
+		DCEDC9321FC8192A00E3590B /* ControlView */ = {
+			isa = PBXGroup;
+			children = (
+				DCEDC9331FC8192A00E3590B /* ZXBrightnessView.swift */,
+				DCEDC9341FC8192A00E3590B /* ZXPopUpView.swift */,
+				DCEDC9351FC8192A00E3590B /* ZXValueTrackingSlider.swift */,
+				DC1ADD7E1FC8225B000DF909 /* ZXMediaControlView.swift */,
+			);
+			path = ControlView;
+			sourceTree = "<group>";
+		};
+		DCEDC9361FC8192A00E3590B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DCEDC9371FC8192A00E3590B /* UIWindow+ ZXExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		DCEDC93A1FC8192A00E3590B /* MediaPlayerExample */ = {
+			isa = PBXGroup;
+			children = (
+				DC1ADD7D1FC821B0000DF909 /* Base */,
+				DC1ADD7C1FC821B0000DF909 /* Main */,
+				DCEDC9031FC6CB3600E3590B /* ZXVideoViewController.swift */,
+				DC1ADD851FCD00B1000DF909 /* ZXMediaCoverView.swift */,
+				DC1ADD871FCD0715000DF909 /* ZXVideoInfo.swift */,
+			);
+			path = MediaPlayerExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCEDC8FD1FC6CB3600E3590B /* ZXMediaPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCEDC9101FC6CB3600E3590B /* Build configuration list for PBXNativeTarget "ZXMediaPlayer" */;
+			buildPhases = (
+				DA3CB8199B24F4E4B8A79781 /* [CP] Check Pods Manifest.lock */,
+				DCEDC8FA1FC6CB3600E3590B /* Sources */,
+				DCEDC8FB1FC6CB3600E3590B /* Frameworks */,
+				DCEDC8FC1FC6CB3600E3590B /* Resources */,
+				79638BE823D5819DB7ACFDA3 /* [CP] Embed Pods Frameworks */,
+				C1E66542F35CEAE80C42C218 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZXMediaPlayer;
+			productName = ZXMediaPlayer;
+			productReference = DCEDC8FE1FC6CB3600E3590B /* ZXMediaPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCEDC8F61FC6CB3600E3590B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = zhaoxin;
+				TargetAttributes = {
+					DCEDC8FD1FC6CB3600E3590B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DCEDC8F91FC6CB3600E3590B /* Build configuration list for PBXProject "ZXMediaPlayer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCEDC8F51FC6CB3600E3590B;
+			productRefGroup = DCEDC8FF1FC6CB3600E3590B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCEDC8FD1FC6CB3600E3590B /* ZXMediaPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCEDC8FC1FC6CB3600E3590B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCEDC93C1FC8192A00E3590B /* Assets.xcassets in Resources */,
+				DCEDC9431FC8192A00E3590B /* ZXMediaPlayer.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79638BE823D5819DB7ACFDA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZXMediaPlayer/Pods-ZXMediaPlayer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/ZXLoadingView/ZXLoadingView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZXLoadingView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZXMediaPlayer/Pods-ZXMediaPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1E66542F35CEAE80C42C218 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZXMediaPlayer/Pods-ZXMediaPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA3CB8199B24F4E4B8A79781 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZXMediaPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCEDC8FA1FC6CB3600E3590B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1ADD841FC9D7F7000DF909 /* ZXMediaPlayerView.swift in Sources */,
+				DC31BAF81FD5197F00B3C4E2 /* VideoListCell.swift in Sources */,
+				DCEDC9441FC8192A00E3590B /* AppDelegate.swift in Sources */,
+				DC31BAF61FD4DDC800B3C4E2 /* ZXVideoListViewController.swift in Sources */,
+				DC1ADD7F1FC8225B000DF909 /* ZXMediaControlView.swift in Sources */,
+				DC1ADD821FC9490B000DF909 /* MediaPlayerModel.swift in Sources */,
+				DCEDC9041FC6CB3600E3590B /* ZXVideoViewController.swift in Sources */,
+				DC31BAEC1FD4D93900B3C4E2 /* ZXBaseViewController.swift in Sources */,
+				DC1ADD881FCD0715000DF909 /* ZXVideoInfo.swift in Sources */,
+				DCEDC93E1FC8192A00E3590B /* ZXBrightnessView.swift in Sources */,
+				DCEDC9421FC8192A00E3590B /* ZXCommon.swift in Sources */,
+				DC31BAF41FD4DC6700B3C4E2 /* ZXNavigationController.swift in Sources */,
+				DCEDC9401FC8192A00E3590B /* ZXValueTrackingSlider.swift in Sources */,
+				DC1ADD861FCD00B2000DF909 /* ZXMediaCoverView.swift in Sources */,
+				DCEDC9411FC8192A00E3590B /* UIWindow+ ZXExtension.swift in Sources */,
+				DCEDC93F1FC8192A00E3590B /* ZXPopUpView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DCEDC90E1FC6CB3600E3590B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Debug;
+		};
+		DCEDC90F1FC6CB3600E3590B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCEDC9111FC6CB3600E3590B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48EFE3E60E70EE3CFA648D37 /* Pods-ZXMediaPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3X7Q2W5F8J;
+				INFOPLIST_FILE = "$(SRCROOT)/ZXMediaPlayer/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhaoxin.ZXMediaPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCEDC9121FC6CB3600E3590B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA08BA728D92EED4588A33B9 /* Pods-ZXMediaPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3X7Q2W5F8J;
+				INFOPLIST_FILE = "$(SRCROOT)/ZXMediaPlayer/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhaoxin.ZXMediaPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCEDC8F91FC6CB3600E3590B /* Build configuration list for PBXProject "ZXMediaPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCEDC90E1FC6CB3600E3590B /* Debug */,
+				DCEDC90F1FC6CB3600E3590B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCEDC9101FC6CB3600E3590B /* Build configuration list for PBXNativeTarget "ZXMediaPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCEDC9111FC6CB3600E3590B /* Debug */,
+				DCEDC9121FC6CB3600E3590B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCEDC8F61FC6CB3600E3590B /* Project object */;
+}
