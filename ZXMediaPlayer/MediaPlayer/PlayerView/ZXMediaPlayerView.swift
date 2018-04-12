@@ -67,7 +67,6 @@ protocol MediaPlayerDelegate{
 //MARK: - 播放器ZXMediaPlayerView
 class ZXMediaPlayerView: UIView,UIGestureRecognizerDelegate,ZXMediaControlViewDelegate {
     //MARK: 播放器状态
-    
     public enum PanDirection {
         case HorizontalMoved
         case VerticalMoved

@@ -68,6 +68,7 @@ class ZXVideoViewController: ZXBaseViewController {
         view.backgroundColor = UIColor.black
         return view
     }()
+    
     lazy var mediaPlayerView: ZXMediaPlayerView = {
         let sharedPlayerView = ZXMediaPlayerView.sharedPlayerView
         
